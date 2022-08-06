@@ -228,5 +228,3 @@ fi
   display   
   launchJavaServer
 fi
-fi
-fi
