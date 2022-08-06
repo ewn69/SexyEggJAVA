@@ -61,6 +61,7 @@ if [ ! "$IP" = 57.128.5.146 ]
 then
     display
     echo "$(tput setaf 1)Looks Like You tried making a java server on asia servers lmao"
+    exit
 else 
 
 if [ ! -f "$FILE" ]
