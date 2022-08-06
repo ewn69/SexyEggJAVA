@@ -71,10 +71,10 @@ then
 echo "
   $(tput setaf 1)Made By ewn#9981 & fate#0993
   $(tput setaf 3)What Server Software you goin to use lmao
-  1) Paper 1.8.8
+  1) Paper 1.8.8    6) Bungeecord
   2) Paper 1.12.2
   3) Paper 1.16.5
-  4) Paper 1.17.1 
+  4) Paper 1.17.1
   5) Paper 1.18.1
   "
   echo "$(tput setaf 1)RESTART YOUR SERVER IF YOU HAVE A SERVER SOFTWARE ALREADY INSTALLED AND THIS APPEARED AGAIN."
