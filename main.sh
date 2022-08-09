@@ -22,9 +22,6 @@ function forceStuffs {
   # Forcing Default Server Icon.
   curl -O https://media.discordapp.net/attachments/919461094433644644/1005004318329544754/server-icon.png
 
-  # Forcing Hibernate Plugin.
-  curl -o plugins/ServerNaptime.jar https://cdn.discordapp.com/attachments/1003135566503743558/1005043790240817182/ServerNaptime.jar
-
   # Forcing MOTD.
   echo "motd=\u00a7fThis server is hosted on \u00a79aquaticnodes.host\u00a7r\n\u00a77You can change this MOTD in server.properties" >> server.properties
 }
@@ -224,8 +221,6 @@ fi
 if [ -d plugins ]; then
   mkdir -p plugins
 fi
-# Redownload the Hibernate jar incase someone delete it.
-  curl -o plugins/aquaticnodes.jar https://cdn.discordapp.com/attachments/1003135566503743558/1005043790240817182/ServerNaptime.jar
   display   
   launchJavaServer
 fi
